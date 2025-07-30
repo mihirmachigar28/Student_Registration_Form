@@ -1,0 +1,132 @@
+/* Login and Sinup  */
+#main{
+    background-color:#F2F4F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 630px;
+    /* margin-top: 10px; */
+}
+#sum{
+    width:400px;
+    height:400px;
+    background-color:mediumpurple;
+    border: 2px solid rgb(46, 31, 77);
+    border-radius: 8%;
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.label{
+    margin: 30px;
+}
+#ll1{
+    width:150px;
+    height:20px;
+    text-align:center;
+    padding: 5px; 
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(42, 26, 73);
+}
+#ll2{
+    width:150px;
+    height:30px;
+    text-align:center;
+    margin:5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(42, 26, 73);
+}
+#ll3{
+    width:150px;
+    height:30px;
+    text-align:center;
+    margin:5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(42, 26, 73);
+}
+#ll4{
+    width:150px;
+    height:30px;
+    text-align:center;
+    margin:5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(42, 26, 73);
+}
+.but{
+    width:150px;
+    height:30px;
+    margin:5px;
+    border-radius: 15px;
+    background-color: rgb(32, 145, 221);
+}
+.but:hover{
+    width:170px;
+    height:33px;
+    margin:5px;
+    border-radius: 15px;
+    background-color: rgb(32, 145, 221);
+    box-shadow: 2px 2px 10px rgb(11, 61, 135);
+    color: white;
+}
+p{
+    width:500px;
+    height:30px;
+    text-align:center;
+    margin:5px;
+}
+
+/* registered */
+/* student information body style */
+#srm{
+    width:800px;
+    height:2000px;
+    background-color:rgb(75, 126, 230);
+    border: 2px solid rgb(30, 64, 132);
+    border-radius: 30px;
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* fieldset border */
+#d{
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+/* data input  */
+.ld{
+    width:250px;
+    height:30px;
+    text-align:center;
+    margin:2px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(42, 26, 73);
+}
+
+/* education table selection data */
+.ets{
+    width:100px;
+    height:20px;
+    text-align:center;
+    margin:1px;
+    border-radius: 8px;
+}
+/* education data input in table */
+.eti{
+    width:150px;
+    height:20px;
+    text-align:center;
+    margin:1px;
+    border-radius: 8px;
+}
+
+.hm{
+    text-align: center;
+}

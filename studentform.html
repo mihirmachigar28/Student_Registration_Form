@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Registration Form</title>
+</head>
+<body>
+    <form id="registrationForm" action="/login.html" onsubmit="return showMessage()" method="post" target="/hello.html">
+    <div id="main" style="height: 1300px;">
+        <br><br>
+        <h1 id="h1" class="head">Student Registration Form</h1>
+    <div id="srm">
+
+    <fieldset id="d" name="d">
+        <legend><b>Personal Information:</b></legend>
+        <table>
+        <tr><td>
+            <label>Registration Number:<br>
+            <input type="number" class="ld" placeholder="Enter Full Name" required/></label></td>
+        <td>
+            <label>Full Name:<br>
+            <input type="text" class="ld" placeholder="Enter Full Name" required/></label></td>
+        </tr>
+        <tr><td>
+            <label>Email-ID:<br>
+            <input type="text" class="ld"  placeholder="Enter Email_ID" required/></label></td>
+        <td>
+            <label>Mobile Number:<br>
+            <input type="tel" class="ld" pattern="[0-9]{10}" placeholder="Enter Mobile Number" required/></label></td>
+        </tr>
+        <tr><td>
+            <label>Date Of Brth:<br>
+            <input type="date" class="ld"  placeholder="Enter Date Of Birth" required/></label></td>
+        <td>
+        <label>Age:<br>
+        <input type="number" class="ld" min="0" max="100" placeholder="Age" required/></label></td>
+        </tr>
+        <tr><td>
+        <label >Gender:<br>
+        <label><input type="radio" name="gender" value="Male" checked required/>Male:</label>
+        <label><input type="radio" name="gender" value="Female" required/>Female:</label></label></td>
+        </table>
+    </fieldset>
+
+    <fieldset id="d" name="d">
+    <legend><b>Parents Information:</b></legend>
+        <table>
+        <tr><td>
+            <label>Father Name:<br>
+            <input type="text" class="ld"  placeholder="Enter Father Full Name" required/></label>
+        </td>
+        <td>
+            <label>Father Mobile Number:<br>
+            <input type="tel" pattern="[0-9]{10}" class="ld"  placeholder="Enter Mobile Number" required/></label>
+        </td>
+        <td></tr>
+        <tr><td>
+            <label>Father Email-ID:<br>
+            <input type="text" class="ld"  placeholder="Enter Email_ID"/></label>
+        </td>
+        <td>
+            <label>Mother Name:<br>
+            <input type="text" class="ld" placeholder="Enter Mother Name" required/></label>
+        </td>
+        </tr>
+        <tr><td>
+            <label>Mother Mobile Number:<br>
+            <input type="tel" pattern="[0-9]{10}" class="ld"  placeholder="Enter Mobile Number" required/></label>
+        </td>
+        <td>
+        <label>Mother Email-ID:<br>
+        <input type="text" class="ld" min="0" max="100" placeholder="Enter Email-ID"/></label></td>
+        </tr>
+        </table>
+    </fieldset>
+
+    <fieldset id="d" name="d">
+    <legend><b>Address Details:</b></legend>
+        <table>
+        <tr><td>
+            <label style="gap: 10px;">Address:<br>
+            <textarea class="ld" rows="3" cols="10" placeholder="ENter Address" required></textarea></label>
+        </td>
+        <td>
+            <label>City:<br>
+            <input type="text" class="ld" placeholder="Enter City" required/></label>
+        </td>
+        <td></tr>
+        <tr><td>
+            <label>Pin Code:<br>
+            <input type="text" class="ld" placeholder="Enter City" required/></label>
+        </td>
+        <td>
+            <label>State:<br>
+            <input type="text" class="ld"  placeholder="Enter State" required/></label>
+        </td>
+        </tr>
+        <tr><td>
+            <label>Country:<br>
+            <input type="text" class="ld"  placeholder="Enter Country" required/></label>
+        </td>
+        </tr>
+        </table>
+    </fieldset>
+
+    <fieldset id="d" name="d">
+    <legend><b>Educational Qualification:</b></legend>
+        <table border="1" bordercolor="lightblue" style="border-collapse: collapse;">
+        <tr><td>
+            <label class="hm"><b>Select Board</b>
+        <td>
+            <label class="hm"><b>Total Number</b>
+        <td>
+            <label class="hm"><b>Obtain Number</b>
+        <td>
+            <label class="hm"><b>Percentage</b>
+        </tr>
+        <tr>
+            <td>
+            <label class="hm"><b>High School:</b>
+            <select class="ets" name="school">
+                <option value="SSC" aria-checked="true">SSC</option>
+                <option value="CBSC">CBSC</option>
+                <option value="CISCE">CISCE</option>
+                <option value="IB">IB</option>
+                <option value="CAMBRIDGE">CAMBRIDGE</option>
+            </select>
+            </label>
+            </td>
+        <td>
+            <input type="text" class="eti" required/></td>
+        <td>
+            <input type="text" class="eti" required/></td>
+        <td>
+            <input type="text" class="eti" required/></td>
+        </tr>
+        <tr><td>
+            <label class="hm"><b>Intermidiate:</b>
+            <select class="ets" name="college">
+                <option value="BE" aria-checked="true">HSC</option>
+                <option value="BCA">(PUE)</option>
+                <option value="B.COM">(MSBSHSE)</option>
+                <option value="B.SC">(TNDGE)</option>
+                <option value="BA">(DHSE)</option>
+                <option value="MCA">(BSER)</option>
+                <option value="M.COM">(GSEB)</option>
+                <option value="M.SC">(HBSE)</option>
+                <option value="MA">(PSEB)</option>
+            </select>
+            </label>
+            </td>
+        <td>
+            <input type="text" class="eti" required/></td>
+        <td>
+            <input type="text" class="eti" required/></td>
+        <td>
+            <input type="text" class="eti" required/></td>
+        </tr>
+
+        <tr><td>
+            <label class="hm"><b>Graduate:</b>
+            <input type="text" class="ets" required/></td>
+        <td>
+            <input type="text" class="eti" required/></td>
+        <td>
+            <input type="text" class="eti" required/></td>
+        <td>
+            <input type="text" class="eti" required/></td>
+        </tr>
+        </table>
+    </fieldset>
+
+    <fieldset id="d" name="d">
+    <legend><b>Course Applied:</b></legend>
+    <table>
+        <tr>
+        <td>
+        <label>Select Course Type:</td>
+        <td>
+        <select class="ld" name="ct">
+            <option value="Online" aria-checked="true">Online</option>
+            <option value="In-person">In-person</option>
+            <option value="hybrid">hybrid</option>
+        </select>
+        </label>
+        </td>
+        </tr>
+
+        <tr>
+        <td>
+        <label>Courses Applied For:</td>
+        <td>
+        <select class="ld" name="course">
+            <option value="BE" aria-checked="true">BE</option>
+            <option value="BCA">BCA</option>
+            <option value="B.COM">B.COM</option>
+            <option value="B.SC">B.SC</option>
+            <option value="BA">BA</option>
+            <option value="MCA">MCA</option>
+            <option value="M.COM">M.COM</option>
+            <option value="M.SC">M.SC</option>
+            <option value="MA">MA</option>
+        </select>
+        </label>
+        </td>
+        </tr>
+        </table>
+    </fieldset><br>
+    <label><input type="checkbox" name="agree" value="agree" required/>I here by declare that the given above is true and correct to the best of my knowledge and belief. </label><br>
+    <button type="submit" class="but">Submit</button><br>
+    <button type="reset" class="but">Reset</button><br>
+    </div>
+    <div>
+    </form>
+    <script>
+        function showMessage() {
+        alert("You have successfully submitted the registration form. You will receive a confirmation message on your registered mobile number shortly.");
+        window.location.href = "login.html"; 
+        return false;
+        }
+    </script>
+</body>
+</html>
+
